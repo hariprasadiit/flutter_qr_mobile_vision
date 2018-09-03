@@ -41,10 +41,10 @@
     _captureSession = [[AVCaptureSession alloc] init];
     
     if (@available(iOS 10.0, *)) {
-        _captureDevice = [AVCaptureDevice defaultDeviceWithDeviceType:AVCaptureDeviceTypeBuiltInWideAngleCamera mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionBack];
+        _captureDevice = [AVCaptureDevice defaultDeviceWithDeviceType:AVCaptureDeviceTypeBuiltInWideAngleCamera mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionFront];
     } else {
         for(AVCaptureDevice* device in [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo]) {
-            if (device.position == AVCaptureDevicePositionBack) {
+            if (device.position == AVCaptureDevicePositionFront) {
                 _captureDevice = device;
                 break;
             }

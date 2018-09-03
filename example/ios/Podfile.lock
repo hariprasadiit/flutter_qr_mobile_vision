@@ -20,10 +20,10 @@ PODS:
     - GoogleMobileVision/BarcodeDetector
 
 DEPENDENCIES:
-  - Flutter (from `/Users/morgan/flutter/bin/cache/artifacts/engine/ios`)
+  - Flutter (from `/Users/hari/development/flutter/bin/cache/artifacts/engine/ios`)
   - GoogleMobileVision/BarcodeDetector
-  - native_device_orientation (from `/Users/morgan/.pub-cache/hosted/pub.dartlang.org/native_device_orientation-0.0.2/ios`)
-  - qr_mobile_vision (from `/Users/morgan/Programming/flutter/flutter_qr_mobile_vision/ios`)
+  - native_device_orientation (from `/Users/hari/.pub-cache/hosted/pub.dartlang.org/native_device_orientation-0.0.2/ios`)
+  - qr_mobile_vision (from `/Users/hari/development/flutter_qr_mobile_vision/ios`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -35,11 +35,11 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   Flutter:
-    :path: "/Users/morgan/flutter/bin/cache/artifacts/engine/ios"
+    :path: "/Users/hari/development/flutter/bin/cache/artifacts/engine/ios"
   native_device_orientation:
-    :path: "/Users/morgan/.pub-cache/hosted/pub.dartlang.org/native_device_orientation-0.0.2/ios"
+    :path: "/Users/hari/.pub-cache/hosted/pub.dartlang.org/native_device_orientation-0.0.2/ios"
   qr_mobile_vision:
-    :path: "/Users/morgan/Programming/flutter/flutter_qr_mobile_vision/ios"
+    :path: "/Users/hari/development/flutter_qr_mobile_vision/ios"
 
 SPEC CHECKSUMS:
   Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
